@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+mainClassName = 'nl.juniverse.demo.SystemLoad'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.github.oshi:oshi-core:3.6.1'
+    implementation 'org.slf4j:slf4j-simple:1.7.25'
+}
